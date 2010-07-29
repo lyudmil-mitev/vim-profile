@@ -15,7 +15,7 @@ if has("gui_running")
   " Maximize gvim window.
   " set lines=999 columns=999
 
-  colorscheme eclipse
+  colorscheme sesarria
 endif
 
 set guioptions-=m  "remove menu bar
