@@ -1,11 +1,17 @@
 set nu
-colorscheme zellner
+colorscheme slate
 set bg=dark
 set paste
-set guifont=Inconsolata\ 12
+set wildmenu
 
 " Python specific tweaks
 
+set autoindent
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
+filetype indent on
 autocmd BufRead,BufNewFile *.py syntax on
 autocmd BufRead,BufNewFile *.py set ai
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
@@ -18,6 +24,7 @@ if has("gui_running")
   colorscheme sesarria
 endif
 
+set guifont=Inconsolata\ 12
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
