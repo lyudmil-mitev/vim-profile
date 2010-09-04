@@ -21,7 +21,7 @@ if has("gui_running")
   " Maximize gvim window.
   " set lines=999 columns=999
 
-  colorscheme sesarria
+  colorscheme sesaria
 endif
 
 set guifont=Inconsolata\ 12
