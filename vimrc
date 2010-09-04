@@ -1,4 +1,5 @@
 set nu
+set nowrap
 colorscheme slate
 set bg=dark
 set paste
